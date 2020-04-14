@@ -1,0 +1,5 @@
+File	Label	Reads	Mapped	Percentage	TotalsgRNAs	Zerocounts	GiniIndex	NegSelQC	NegSelQCPval	NegSelQCPvalPermutation	NegSelQCPvalPermutationFDR	NegSelQCGene
+5_Undetermined_S0_L001_R1_001_TCGCAT.fastq	baseline_1	99687416	88216257	0.8849	77736	43	0.07388	0	1	1	1	0.0
+6_Undetermined_S0_L001_R1_001_CATAGC.fastq	fxn_1	83380298	73132444	0.8771	77736	198	0.07354	0	1	1	1	0.0
+8_Undetermined_S0_L001_R1_001_GTAGGC.fastq	baseline_2	161628531	142728229	0.8831	77736	75	0.08861	0	1	1	1	0.0
+9_Undetermined_S0_L001_R1_001_TTCAAG.fastq	fxn_2	116718266	102431968	0.8776	77736	235	0.08258	0	1	1	1	0.0

@@ -1,0 +1,555 @@
+INFO  @ Thu, 09 Apr 2020 11:43:43: Parameters: /home/peter/miniconda3/envs/crispr_screen_april2020/bin/mageck count -l library.csv -n count_20200409_ --sample-label baseline_1,fxn_1,baseline_2,fxn_2 --fastq 5_Undetermined_S0_L001_R1_001_TCGCAT.fastq 6_Undetermined_S0_L001_R1_001_CATAGC.fastq 8_Undetermined_S0_L001_R1_001_GTAGGC.fastq 9_Undetermined_S0_L001_R1_001_TTCAAG.fastq 
+INFO  @ Thu, 09 Apr 2020 11:43:43: Welcome to MAGeCK v0.5.9.2. Command: count 
+INFO  @ Thu, 09 Apr 2020 11:43:43: Header line of the library file detected; skip the first line ... 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Loading 77736 predefined sgRNAs. 
+WARNING @ Thu, 09 Apr 2020 11:43:44: There are 0 sgRNAs with duplicated sequences. 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Parsing FASTQ file 5_Undetermined_S0_L001_R1_001_TCGCAT.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Determining the trim-5 length of FASTQ file 5_Undetermined_S0_L001_R1_001_TCGCAT.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Processing 0M reads ... 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Read length:26 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Total tested reads: 100001, mapped: 88851(0.8885011149888501) 
+INFO  @ Thu, 09 Apr 2020 11:43:44: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 09 Apr 2020 11:43:44: 0	88718	0.9985031119514693 
+INFO  @ Thu, 09 Apr 2020 11:43:44: 1	133	0.0014968880485306862 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Auto determination of trim5 results: 0 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:43:44: Processing 0M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:46: Processing 1M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:47: Processing 2M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:49: Processing 3M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:51: Processing 4M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:53: Processing 5M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:55: Processing 6M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:56: Processing 7M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:43:58: Processing 8M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:00: Processing 9M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:02: Processing 10M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:04: Processing 11M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:05: Processing 12M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:07: Processing 13M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:09: Processing 14M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:11: Processing 15M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:13: Processing 16M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:14: Processing 17M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:16: Processing 18M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:18: Processing 19M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:20: Processing 20M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:22: Processing 21M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:24: Processing 22M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:25: Processing 23M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:27: Processing 24M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:29: Processing 25M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:31: Processing 26M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:33: Processing 27M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:35: Processing 28M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:36: Processing 29M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:38: Processing 30M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:40: Processing 31M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:42: Processing 32M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:44: Processing 33M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:46: Processing 34M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:47: Processing 35M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:49: Processing 36M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:51: Processing 37M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:53: Processing 38M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:55: Processing 39M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:57: Processing 40M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:44:58: Processing 41M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:00: Processing 42M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:02: Processing 43M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:04: Processing 44M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:06: Processing 45M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:08: Processing 46M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:10: Processing 47M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:11: Processing 48M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:13: Processing 49M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:15: Processing 50M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:17: Processing 51M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:19: Processing 52M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:21: Processing 53M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:23: Processing 54M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:25: Processing 55M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:26: Processing 56M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:28: Processing 57M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:30: Processing 58M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:32: Processing 59M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:34: Processing 60M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:36: Processing 61M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:37: Processing 62M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:39: Processing 63M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:41: Processing 64M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:43: Processing 65M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:45: Processing 66M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:47: Processing 67M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:49: Processing 68M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:50: Processing 69M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:52: Processing 70M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:54: Processing 71M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:56: Processing 72M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:45:58: Processing 73M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:00: Processing 74M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:02: Processing 75M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:03: Processing 76M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:05: Processing 77M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:07: Processing 78M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:09: Processing 79M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:11: Processing 80M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:13: Processing 81M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:15: Processing 82M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:16: Processing 83M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:18: Processing 84M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:20: Processing 85M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:22: Processing 86M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:24: Processing 87M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:26: Processing 88M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:28: Processing 89M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:29: Processing 90M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:31: Processing 91M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:33: Processing 92M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:35: Processing 93M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:37: Processing 94M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:39: Processing 95M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:41: Processing 96M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:42: Processing 97M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:44: Processing 98M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:46: Processing 99M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:47: Total: 99687416. 
+INFO  @ Thu, 09 Apr 2020 11:46:47: Mapped: 88216257. 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Parsing FASTQ file 6_Undetermined_S0_L001_R1_001_CATAGC.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Determining the trim-5 length of FASTQ file 6_Undetermined_S0_L001_R1_001_CATAGC.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Processing 0M reads ... 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Read length:26 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Total tested reads: 100001, mapped: 88025(0.8802411975880241) 
+INFO  @ Thu, 09 Apr 2020 11:46:48: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 09 Apr 2020 11:46:48: 0	87891	0.9984777051973871 
+INFO  @ Thu, 09 Apr 2020 11:46:48: 1	134	0.001522294802612894 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Auto determination of trim5 results: 0 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:46:48: Processing 0M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:50: Processing 1M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:51: Processing 2M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:53: Processing 3M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:55: Processing 4M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:57: Processing 5M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:46:58: Processing 6M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:00: Processing 7M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:02: Processing 8M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:04: Processing 9M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:06: Processing 10M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:07: Processing 11M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:09: Processing 12M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:11: Processing 13M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:13: Processing 14M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:15: Processing 15M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:17: Processing 16M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:18: Processing 17M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:20: Processing 18M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:22: Processing 19M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:24: Processing 20M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:26: Processing 21M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:27: Processing 22M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:29: Processing 23M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:31: Processing 24M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:33: Processing 25M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:35: Processing 26M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:37: Processing 27M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:38: Processing 28M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:40: Processing 29M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:42: Processing 30M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:44: Processing 31M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:46: Processing 32M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:48: Processing 33M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:50: Processing 34M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:51: Processing 35M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:53: Processing 36M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:55: Processing 37M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:57: Processing 38M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:47:59: Processing 39M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:01: Processing 40M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:03: Processing 41M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:04: Processing 42M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:06: Processing 43M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:08: Processing 44M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:10: Processing 45M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:12: Processing 46M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:14: Processing 47M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:16: Processing 48M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:17: Processing 49M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:19: Processing 50M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:21: Processing 51M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:23: Processing 52M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:25: Processing 53M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:27: Processing 54M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:29: Processing 55M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:30: Processing 56M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:32: Processing 57M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:34: Processing 58M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:36: Processing 59M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:38: Processing 60M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:40: Processing 61M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:42: Processing 62M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:43: Processing 63M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:45: Processing 64M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:47: Processing 65M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:49: Processing 66M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:51: Processing 67M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:53: Processing 68M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:55: Processing 69M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:56: Processing 70M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:48:58: Processing 71M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:00: Processing 72M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:02: Processing 73M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:04: Processing 74M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:06: Processing 75M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:08: Processing 76M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:09: Processing 77M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:11: Processing 78M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:13: Processing 79M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:15: Processing 80M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:17: Processing 81M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:19: Processing 82M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:21: Processing 83M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:21: Total: 83380298. 
+INFO  @ Thu, 09 Apr 2020 11:49:21: Mapped: 73132444. 
+INFO  @ Thu, 09 Apr 2020 11:49:21: Parsing FASTQ file 8_Undetermined_S0_L001_R1_001_GTAGGC.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:49:21: Determining the trim-5 length of FASTQ file 8_Undetermined_S0_L001_R1_001_GTAGGC.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Processing 0M reads ... 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Read length:26 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Total tested reads: 100001, mapped: 88784(0.8878311216887831) 
+INFO  @ Thu, 09 Apr 2020 11:49:22: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 09 Apr 2020 11:49:22: 0	88697	0.9990200937105784 
+INFO  @ Thu, 09 Apr 2020 11:49:22: 1	86	0.0009686429987385114 
+INFO  @ Thu, 09 Apr 2020 11:49:22: 2	1	1.1263290683005947e-05 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Auto determination of trim5 results: 0 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:49:22: Processing 0M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:23: Processing 1M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:25: Processing 2M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:27: Processing 3M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:29: Processing 4M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:31: Processing 5M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:32: Processing 6M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:34: Processing 7M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:36: Processing 8M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:38: Processing 9M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:40: Processing 10M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:41: Processing 11M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:43: Processing 12M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:45: Processing 13M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:47: Processing 14M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:49: Processing 15M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:50: Processing 16M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:52: Processing 17M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:54: Processing 18M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:56: Processing 19M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:58: Processing 20M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:49:59: Processing 21M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:01: Processing 22M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:03: Processing 23M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:05: Processing 24M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:07: Processing 25M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:08: Processing 26M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:10: Processing 27M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:12: Processing 28M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:14: Processing 29M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:16: Processing 30M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:18: Processing 31M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:19: Processing 32M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:21: Processing 33M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:23: Processing 34M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:25: Processing 35M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:27: Processing 36M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:29: Processing 37M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:30: Processing 38M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:32: Processing 39M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:34: Processing 40M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:36: Processing 41M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:38: Processing 42M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:40: Processing 43M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:41: Processing 44M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:43: Processing 45M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:45: Processing 46M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:47: Processing 47M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:49: Processing 48M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:51: Processing 49M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:52: Processing 50M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:54: Processing 51M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:56: Processing 52M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:50:58: Processing 53M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:00: Processing 54M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:02: Processing 55M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:03: Processing 56M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:05: Processing 57M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:07: Processing 58M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:09: Processing 59M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:11: Processing 60M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:13: Processing 61M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:15: Processing 62M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:17: Processing 63M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:18: Processing 64M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:20: Processing 65M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:22: Processing 66M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:24: Processing 67M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:26: Processing 68M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:28: Processing 69M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:29: Processing 70M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:31: Processing 71M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:33: Processing 72M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:35: Processing 73M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:37: Processing 74M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:39: Processing 75M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:40: Processing 76M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:42: Processing 77M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:44: Processing 78M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:46: Processing 79M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:48: Processing 80M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:50: Processing 81M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:51: Processing 82M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:53: Processing 83M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:55: Processing 84M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:57: Processing 85M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:51:59: Processing 86M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:01: Processing 87M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:03: Processing 88M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:04: Processing 89M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:06: Processing 90M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:08: Processing 91M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:10: Processing 92M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:12: Processing 93M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:14: Processing 94M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:16: Processing 95M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:17: Processing 96M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:19: Processing 97M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:21: Processing 98M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:23: Processing 99M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:25: Processing 100M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:27: Processing 101M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:29: Processing 102M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:30: Processing 103M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:32: Processing 104M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:34: Processing 105M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:36: Processing 106M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:38: Processing 107M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:40: Processing 108M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:42: Processing 109M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:43: Processing 110M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:45: Processing 111M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:47: Processing 112M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:49: Processing 113M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:51: Processing 114M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:53: Processing 115M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:55: Processing 116M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:56: Processing 117M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:52:58: Processing 118M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:00: Processing 119M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:02: Processing 120M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:04: Processing 121M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:06: Processing 122M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:08: Processing 123M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:09: Processing 124M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:11: Processing 125M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:13: Processing 126M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:15: Processing 127M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:17: Processing 128M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:19: Processing 129M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:21: Processing 130M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:22: Processing 131M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:24: Processing 132M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:26: Processing 133M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:28: Processing 134M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:30: Processing 135M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:32: Processing 136M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:34: Processing 137M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:35: Processing 138M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:37: Processing 139M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:39: Processing 140M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:41: Processing 141M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:43: Processing 142M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:45: Processing 143M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:47: Processing 144M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:48: Processing 145M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:50: Processing 146M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:52: Processing 147M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:54: Processing 148M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:56: Processing 149M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:53:58: Processing 150M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:00: Processing 151M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:01: Processing 152M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:03: Processing 153M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:05: Processing 154M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:07: Processing 155M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:09: Processing 156M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:11: Processing 157M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:12: Processing 158M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:14: Processing 159M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:16: Processing 160M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:18: Processing 161M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:19: Total: 161628531. 
+INFO  @ Thu, 09 Apr 2020 11:54:19: Mapped: 142728229. 
+INFO  @ Thu, 09 Apr 2020 11:54:19: Parsing FASTQ file 9_Undetermined_S0_L001_R1_001_TTCAAG.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:54:19: Determining the trim-5 length of FASTQ file 9_Undetermined_S0_L001_R1_001_TTCAAG.fastq... 
+INFO  @ Thu, 09 Apr 2020 11:54:19: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:54:19: Processing 0M reads ... 
+INFO  @ Thu, 09 Apr 2020 11:54:20: Read length:26 
+INFO  @ Thu, 09 Apr 2020 11:54:20: Total tested reads: 100001, mapped: 88284(0.8828311716882831) 
+INFO  @ Thu, 09 Apr 2020 11:54:20: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 09 Apr 2020 11:54:20: 0	88193	0.9989692356485886 
+INFO  @ Thu, 09 Apr 2020 11:54:20: 1	90	0.0010194372706266142 
+INFO  @ Thu, 09 Apr 2020 11:54:20: 3	1	1.1327080784740156e-05 
+INFO  @ Thu, 09 Apr 2020 11:54:20: Auto determination of trim5 results: 0 
+INFO  @ Thu, 09 Apr 2020 11:54:20: Possible gRNA lengths:20 
+INFO  @ Thu, 09 Apr 2020 11:54:20: Processing 0M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:21: Processing 1M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:23: Processing 2M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:25: Processing 3M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:27: Processing 4M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:29: Processing 5M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:30: Processing 6M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:32: Processing 7M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:34: Processing 8M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:36: Processing 9M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:37: Processing 10M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:39: Processing 11M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:41: Processing 12M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:43: Processing 13M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:45: Processing 14M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:47: Processing 15M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:48: Processing 16M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:50: Processing 17M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:52: Processing 18M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:54: Processing 19M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:56: Processing 20M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:57: Processing 21M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:54:59: Processing 22M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:01: Processing 23M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:03: Processing 24M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:05: Processing 25M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:07: Processing 26M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:08: Processing 27M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:10: Processing 28M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:12: Processing 29M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:14: Processing 30M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:16: Processing 31M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:18: Processing 32M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:20: Processing 33M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:21: Processing 34M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:23: Processing 35M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:25: Processing 36M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:27: Processing 37M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:29: Processing 38M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:31: Processing 39M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:32: Processing 40M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:34: Processing 41M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:36: Processing 42M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:38: Processing 43M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:40: Processing 44M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:42: Processing 45M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:44: Processing 46M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:45: Processing 47M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:47: Processing 48M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:49: Processing 49M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:51: Processing 50M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:53: Processing 51M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:55: Processing 52M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:56: Processing 53M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:55:58: Processing 54M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:00: Processing 55M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:02: Processing 56M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:04: Processing 57M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:06: Processing 58M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:08: Processing 59M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:09: Processing 60M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:11: Processing 61M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:13: Processing 62M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:15: Processing 63M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:17: Processing 64M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:19: Processing 65M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:21: Processing 66M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:22: Processing 67M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:24: Processing 68M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:26: Processing 69M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:28: Processing 70M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:30: Processing 71M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:32: Processing 72M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:34: Processing 73M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:35: Processing 74M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:37: Processing 75M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:39: Processing 76M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:41: Processing 77M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:43: Processing 78M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:45: Processing 79M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:47: Processing 80M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:48: Processing 81M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:50: Processing 82M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:52: Processing 83M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:54: Processing 84M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:56: Processing 85M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:56:58: Processing 86M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:00: Processing 87M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:01: Processing 88M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:03: Processing 89M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:05: Processing 90M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:07: Processing 91M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:09: Processing 92M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:11: Processing 93M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:13: Processing 94M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:14: Processing 95M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:16: Processing 96M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:18: Processing 97M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:20: Processing 98M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:22: Processing 99M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:24: Processing 100M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:26: Processing 101M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:27: Processing 102M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:29: Processing 103M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:31: Processing 104M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:33: Processing 105M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:35: Processing 106M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:37: Processing 107M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:39: Processing 108M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:41: Processing 109M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:42: Processing 110M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:44: Processing 111M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:46: Processing 112M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:48: Processing 113M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:50: Processing 114M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:52: Processing 115M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:54: Processing 116M reads .. 
+INFO  @ Thu, 09 Apr 2020 11:57:55: Total: 116718266. 
+INFO  @ Thu, 09 Apr 2020 11:57:55: Mapped: 102431968. 
+DEBUG @ Thu, 09 Apr 2020 11:57:55: Initial (total) size factor: 1.1520237647353366 1.3896325480384601 0.7120331080405965 0.9921436294185034 
+DEBUG @ Thu, 09 Apr 2020 11:57:56: Median factor: 1.0567353190952629 1.2250628806734516 0.7770851452274811 0.9671081529360771 
+INFO  @ Thu, 09 Apr 2020 11:57:56: Final size factor: 1.0567353190952629 1.2250628806734516 0.7770851452274811 0.9671081529360771 
+INFO  @ Thu, 09 Apr 2020 11:57:57: Summary of file 5_Undetermined_S0_L001_R1_001_TCGCAT.fastq: 
+INFO  @ Thu, 09 Apr 2020 11:57:57: label	baseline_1 
+INFO  @ Thu, 09 Apr 2020 11:57:57: reads	99687416 
+INFO  @ Thu, 09 Apr 2020 11:57:57: mappedreads	88216257 
+INFO  @ Thu, 09 Apr 2020 11:57:57: totalsgrnas	77736 
+INFO  @ Thu, 09 Apr 2020 11:57:57: zerosgrnas	43 
+INFO  @ Thu, 09 Apr 2020 11:57:57: giniindex	0.07387829731845663 
+INFO  @ Thu, 09 Apr 2020 11:57:57: Summary of file 6_Undetermined_S0_L001_R1_001_CATAGC.fastq: 
+INFO  @ Thu, 09 Apr 2020 11:57:57: label	fxn_1 
+INFO  @ Thu, 09 Apr 2020 11:57:57: reads	83380298 
+INFO  @ Thu, 09 Apr 2020 11:57:57: mappedreads	73132444 
+INFO  @ Thu, 09 Apr 2020 11:57:57: totalsgrnas	77736 
+INFO  @ Thu, 09 Apr 2020 11:57:57: zerosgrnas	198 
+INFO  @ Thu, 09 Apr 2020 11:57:57: giniindex	0.07354276392605896 
+INFO  @ Thu, 09 Apr 2020 11:57:57: Summary of file 8_Undetermined_S0_L001_R1_001_GTAGGC.fastq: 
+INFO  @ Thu, 09 Apr 2020 11:57:57: label	baseline_2 
+INFO  @ Thu, 09 Apr 2020 11:57:57: reads	161628531 
+INFO  @ Thu, 09 Apr 2020 11:57:57: mappedreads	142728229 
+INFO  @ Thu, 09 Apr 2020 11:57:57: totalsgrnas	77736 
+INFO  @ Thu, 09 Apr 2020 11:57:57: zerosgrnas	75 
+INFO  @ Thu, 09 Apr 2020 11:57:57: giniindex	0.08860991116349692 
+INFO  @ Thu, 09 Apr 2020 11:57:57: Summary of file 9_Undetermined_S0_L001_R1_001_TTCAAG.fastq: 
+INFO  @ Thu, 09 Apr 2020 11:57:57: label	fxn_2 
+INFO  @ Thu, 09 Apr 2020 11:57:57: reads	116718266 
+INFO  @ Thu, 09 Apr 2020 11:57:57: mappedreads	102431968 
+INFO  @ Thu, 09 Apr 2020 11:57:57: totalsgrnas	77736 
+INFO  @ Thu, 09 Apr 2020 11:57:57: zerosgrnas	235 
+INFO  @ Thu, 09 Apr 2020 11:57:57: giniindex	0.0825793860735905 
+INFO  @ Thu, 09 Apr 2020 11:57:57: Loading Rnw template file: /home/peter/miniconda3/envs/crispr_screen_april2020/lib/python3.7/site-packages/mageck/fastq_template.Rnw. 
+DEBUG @ Thu, 09 Apr 2020 11:57:57: Setting up the visualization module... 
