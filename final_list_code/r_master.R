@@ -16,11 +16,6 @@ mart <- biomaRt::useDataset(dataset = "hsapiens_gene_ensembl",
                     mart    = useMart("ENSEMBL_MART_ENSEMBL",       
                     host    = "www.ensembl.org"))    
 
-## set up path
-
-inpath = "Z:\\workspace\\users\\yez\\RDRU\\data\\FXN_CRISPR_cas9\\"
-outpath = "Z:\\workspace\\users\\yez\\RDRU\\results\\"
-inpath2 = "Z:\\workspace\\users\\yez\\RDRU\\script\\"
 
 
 ## for final run using the controls as nointron list
@@ -48,6 +43,7 @@ inpath2 = "Z:\\workspace\\users\\yez\\RDRU\\script\\"
 ##	will have the similar significance and direction)
 ###############################################################################################################################
 
+#DEFAULT COUNT, DEFAULT TEST
 ## screen I
 
 gene_dat_scI = read.delim("test_data/defaultTest_defaultNormCount_screen1/defaultTest_defaultNormCount_screen1.gene_summary.txt",header=TRUE) #19292
@@ -57,6 +53,7 @@ sgrna_dat_scI = read.delim("test_data/defaultTest_defaultNormCount_screen1/defau
 
 gene_dat_scII = read.delim("test_data/defaultTest_defaultNormCount_screen2/defaultTest_defaultNormCount_screen2.gene_summary.txt",header=TRUE) #19292
 sgrna_dat_scII = read.delim("test_data/defaultTest_defaultNormCount_screen2/defaultTest_defaultNormCount_screen2.sgrna_summary.txt",header=TRUE) #77736
+
 
 # raw_count_scII = read.delim(inf23,header=TRUE) ## sum(raw_count_scII$BL2) 142728229,sum(raw_count_scII$FXN2) 102431968
 #norm_count = read.delim(inf24,header=TRUE) ##
@@ -84,36 +81,36 @@ raw_count_comb = read.delim("count_data/default/count_20200409_.count.txt",heade
 
 ## plot the raw counts for both screens
 
-rg_max = max(raw_count_comb[,c(7,8)])
-rg_min = min(raw_count_comb[,c(7,8)])
-raw_count = raw_count_comb
-
-jpeg("screen_1_logCounts.jpeg",width = 600, height = 600, units = "px", pointsize = 12,quality = 100)
-plot(0,0,xlim=c(rg_min,rg_max),ylim=c(rg_min,rg_max),type="n",xlab="BL",ylab="FXN+",main="Screen I")
-points(raw_count$baseline_1_log,raw_count$fxn_1_log,col="red")
-abline(a=0,b=1,lty=2,col="gray")
-dev.off()
-
-rg_max = max(raw_count_comb[,c(9,10)])
-rg_min = min(raw_count_comb[,c(9,10)])
-raw_count = raw_count_comb
-
-outg12 = paste0(outpath,"sgRNA_scII_nointron_counts_FXN_BL.jpeg")
-
-jpeg("screen_2_logCounts.jpeg",width = 600, height = 600, units = "px", pointsize = 12,quality = 100)
-plot(0,0,xlim=c(rg_min,rg_max),ylim=c(rg_min,rg_max),type="n",xlab="BL",ylab="FXN+",main="Screen II")
-points(raw_count$baseline_2_log,raw_count$fxn_2_log,col="red")
-abline(a=0,b=1,lty=2,col="gray")
-dev.off()
+# rg_max = max(raw_count_comb[,c(7,8)])
+# rg_min = min(raw_count_comb[,c(7,8)])
+# raw_count = raw_count_comb
+# 
+# jpeg("screen_1_logCounts.jpeg",width = 600, height = 600, units = "px", pointsize = 12,quality = 100)
+# plot(0,0,xlim=c(rg_min,rg_max),ylim=c(rg_min,rg_max),type="n",xlab="BL",ylab="FXN+",main="Screen I")
+# points(raw_count$baseline_1_log,raw_count$fxn_1_log,col="red")
+# abline(a=0,b=1,lty=2,col="gray")
+# dev.off()
+# 
+# rg_max = max(raw_count_comb[,c(9,10)])
+# rg_min = min(raw_count_comb[,c(9,10)])
+# raw_count = raw_count_comb
+# 
+# outg12 = paste0(outpath,"sgRNA_scII_nointron_counts_FXN_BL.jpeg")
+# 
+# jpeg("screen_2_logCounts.jpeg",width = 600, height = 600, units = "px", pointsize = 12,quality = 100)
+# plot(0,0,xlim=c(rg_min,rg_max),ylim=c(rg_min,rg_max),type="n",xlab="BL",ylab="FXN+",main="Screen II")
+# points(raw_count$baseline_2_log,raw_count$fxn_2_log,col="red")
+# abline(a=0,b=1,lty=2,col="gray")
+# dev.off()
 
 
 ## process results
-
-fdr_cf = 0.1 ## fdr cutoff 10%
-lfc_cf = log(1) ## log fold change (>0, positive change)
- 
-range(gene_dat_scI$pos.fdr)
-range(gene_dat_scII$pos.fdr)
+# 
+# fdr_cf = 0.1 ## fdr cutoff 10%
+# lfc_cf = log(1) ## log fold change (>0, positive change)
+#  
+# range(gene_dat_scI$pos.fdr)
+# range(gene_dat_scII$pos.fdr)
 
  
 #gene_dat_scI_ord_pos = gene_dat_scI[order(gene_dat_scI$pos.rank),]
@@ -124,38 +121,38 @@ range(gene_dat_scII$pos.fdr)
 
 
 ## filtering the results
-gene_dat_scI_fdr_pos = subset(gene_dat_scI,pos.fdr<=fdr_cf&pos.lfc>=lfc_cf&pos.goodsgrna>=2) ## 474
-gene_dat_scII_fdr_pos = subset(gene_dat_scII,pos.fdr<=fdr_cf&pos.lfc>=lfc_cf&pos.goodsgrna>=2) ## 156
- 
-gene_dat_scI_fdr_pos_ord = gene_dat_scI_fdr_pos[order(gene_dat_scI_fdr_pos$pos.rank),]
-gene_dat_scII_fdr_pos_ord = gene_dat_scII_fdr_pos[order(gene_dat_scII_fdr_pos$pos.rank),]
-  
-gene_dat_scI_fdr_pos_ord_top10 = head(gene_dat_scI_fdr_pos_ord,10)
-gene_dat_scII_fdr_pos_ord_top10 = head(gene_dat_scII_fdr_pos_ord,10)
-
-outt11 = paste0(outpath,"gene_dat_scI_fdr_pos_ord_top10.csv")
-outt21 = paste0(outpath,"gene_dat_scII_fdr_pos_ord_top10.csv")
-
-write.csv(gene_dat_scI_fdr_pos_ord_top10,file=outt11)
-write.csv(gene_dat_scII_fdr_pos_ord_top10,file=outt21)
-
-
-
-sgrna_dat_scI_fdr_pos = sgrna_dat_scI[sgrna_dat_scI$Gene%in%gene_dat_scI_fdr_pos$id,] ## 1896
-sgrna_dat_scII_fdr_pos = sgrna_dat_scII[sgrna_dat_scII$Gene%in%gene_dat_scII_fdr_pos$id,] ## 624
-
-gene_dat_scI_fdr_pos$Gene = unlist(lapply(gene_dat_scI_fdr_pos$id,term_extr))
-gene_dat_scII_fdr_pos$Gene = unlist(lapply(gene_dat_scII_fdr_pos$id,term_extr))
-
-
-sh_gene = intersect(gene_dat_scI_fdr_pos$id,gene_dat_scII_fdr_pos$id) ## 18 genes
-
-gene_dat_scI_fdr_pos_sh = gene_dat_scI_fdr_pos[match(sh_gene,gene_dat_scI_fdr_pos$id),]
-gene_dat_scII_fdr_pos_sh = gene_dat_scII_fdr_pos[match(sh_gene,gene_dat_scII_fdr_pos$id),]
-
-
-gene_col = c("red","green","hotpink","blue","orange","brown","plum","black","sienna","turquoise") ##sample(colors(),length(genein))
-topn = 10
+# gene_dat_scI_fdr_pos = subset(gene_dat_scI,pos.fdr<=fdr_cf&pos.lfc>=lfc_cf&pos.goodsgrna>=2) ## 474
+# gene_dat_scII_fdr_pos = subset(gene_dat_scII,pos.fdr<=fdr_cf&pos.lfc>=lfc_cf&pos.goodsgrna>=2) ## 156
+#  
+# gene_dat_scI_fdr_pos_ord = gene_dat_scI_fdr_pos[order(gene_dat_scI_fdr_pos$pos.rank),]
+# gene_dat_scII_fdr_pos_ord = gene_dat_scII_fdr_pos[order(gene_dat_scII_fdr_pos$pos.rank),]
+#   
+# gene_dat_scI_fdr_pos_ord_top10 = head(gene_dat_scI_fdr_pos_ord,10)
+# gene_dat_scII_fdr_pos_ord_top10 = head(gene_dat_scII_fdr_pos_ord,10)
+# 
+# outt11 = paste0(outpath,"gene_dat_scI_fdr_pos_ord_top10.csv")
+# outt21 = paste0(outpath,"gene_dat_scII_fdr_pos_ord_top10.csv")
+# 
+# write.csv(gene_dat_scI_fdr_pos_ord_top10,file=outt11)
+# write.csv(gene_dat_scII_fdr_pos_ord_top10,file=outt21)
+# 
+# 
+# 
+# sgrna_dat_scI_fdr_pos = sgrna_dat_scI[sgrna_dat_scI$Gene%in%gene_dat_scI_fdr_pos$id,] ## 1896
+# sgrna_dat_scII_fdr_pos = sgrna_dat_scII[sgrna_dat_scII$Gene%in%gene_dat_scII_fdr_pos$id,] ## 624
+# 
+# gene_dat_scI_fdr_pos$Gene = unlist(lapply(gene_dat_scI_fdr_pos$id,term_extr))
+# gene_dat_scII_fdr_pos$Gene = unlist(lapply(gene_dat_scII_fdr_pos$id,term_extr))
+# 
+# 
+# sh_gene = intersect(gene_dat_scI_fdr_pos$id,gene_dat_scII_fdr_pos$id) ## 18 genes
+# 
+# gene_dat_scI_fdr_pos_sh = gene_dat_scI_fdr_pos[match(sh_gene,gene_dat_scI_fdr_pos$id),]
+# gene_dat_scII_fdr_pos_sh = gene_dat_scII_fdr_pos[match(sh_gene,gene_dat_scII_fdr_pos$id),]
+# 
+# 
+# gene_col = c("red","green","hotpink","blue","orange","brown","plum","black","sienna","turquoise") ##sample(colors(),length(genein))
+# topn = 10
 
 
 ## screen I
@@ -814,8 +811,11 @@ gene_dat_scII2 = gene_dat_scII[order(gene_dat_scII$id),]
 
 ## Assuming independence
 ## combine with Fisher's Method
- 
+
+
 pmat = data.frame(P1=gene_dat_scI2$pos.p.value,P2=gene_dat_scII2$pos.p.value)
+
+plotp(pmat)
 
 fisher_res = apply(pmat,1,sumlog)
  
