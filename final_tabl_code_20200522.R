@@ -48,19 +48,43 @@ combined_table <- scI_II_comb_ord_sel %>%
   group_by(Gene) %>%
   mutate(avg=mean(c(SCI_FC, SCII_FC), na.rm=T)) %>%
   ungroup() %>%
-  filter(FisherP < 0.01) %>%
   arrange(desc(avg)) %>%
-  mutate("Enrichment" = 2^avg) %>%
+  mutate("Fold Enrichment" = 2^avg) %>%
   select(Gene,
          "Screen 1 P value" = P1,
          "Screen 2 P value" = P2,
-         "P value" = FisherP,
+         "Fisher P value" = FisherP,
          "Screen 1 log2 Fold Enrichment" = SCI_FC,
          "Screen 2 log2 Fold Enrichment" = SCII_FC,
          "Combined log2 Fold Enrichment" = avg,
-         "Enrichment",
+         "Fold Enrichment",
          "Screen 1 'Good' sgRNAs" = SCI_GSGRNA,
          "Screen 2 'Good' sgRNAs" = SCII_GSGRNA) 
+
+write_csv(combined_table, path = "combined_screens_entire_list_20200531.csv")
+
+combined_table <- scI_II_comb_ord_sel %>%
+  as_tibble() %>%
+  group_by(Gene) %>%
+  mutate(avg=mean(c(SCI_FC, SCII_FC), na.rm=T)) %>%
+  ungroup() %>%
+  filter(FisherP < 0.01) %>%
+  arrange(desc(avg)) %>%
+  mutate("Fold Enrichment" = 2^avg) %>%
+  select(Gene,
+         "Screen 1 P value" = P1,
+         "Screen 2 P value" = P2,
+         "Fisher P value" = FisherP,
+         "Screen 1 log2 Fold Enrichment" = SCI_FC,
+         "Screen 2 log2 Fold Enrichment" = SCII_FC,
+         "Combined log2 Fold Enrichment" = avg,
+         "Fold Enrichment",
+         "Screen 1 'Good' sgRNAs" = SCI_GSGRNA,
+         "Screen 2 'Good' sgRNAs" = SCII_GSGRNA) 
+
+write_csv(combined_table, path = "combined_screens_signif_list_20200531.csv")
+
+library(gt)
 
 combined_table %>%
   head(50) %>%
@@ -69,6 +93,7 @@ combined_table %>%
     title = md("Top Gene Targets from **Screens 1 and 2**")
   ) %>%
   gtsave("top50.png")
+
 
 combined_table %>%
   select(Gene, 
@@ -92,12 +117,21 @@ combined_table %>%
   write_delim("final_combine.txt", delim = "\t")
 
 
---%>%
-  gt()
+library(formattable)
+top_10_formattable <- combined_table %>%
+  select(Gene, 
+         as.name("Fold Enrichment"), 
+         as.name("Fisher P value")) %>%
+  # top_n(10) %>%
+  head(10) %>%
+  # mutate(Rank = row_number()) %>%
+  # select(4, 1:3) %>%
+  formattable(align = c("l", rep("r", 3)), 
+              list(Gene = formatter("span", style = ~ style(color = "grey", font.weight = "bold", "font-family" = "arial")), 
+                   area(col = 2) ~ color_tile("#DeF7E9", "#71CA97")))
 
+#To get a png of the table, I viewed the html of the table, zoomed Chrome in to 250% and took a screenshot. Resized in Mac Preview
 
-library(gt)
-exibble %>% gt()
 
 
 #TOTAL COUNT, TOTAL TEST
