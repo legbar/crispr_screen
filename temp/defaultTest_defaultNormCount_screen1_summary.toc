@@ -1,0 +1,3 @@
+\contentsline {section}{\numberline {1}Summary}{1}%
+\contentsline {section}{\numberline {2}Comparison results of fxn 1 vs rest neg.}{3}%
+\contentsline {section}{\numberline {3}Comparison results of fxn 1 vs rest pos.}{7}%

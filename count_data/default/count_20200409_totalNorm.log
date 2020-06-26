@@ -1,0 +1,558 @@
+INFO  @ Thu, 25 Jun 2020 13:48:58: Parameters: /home/peter/miniconda3/envs/mageck/bin/mageck count -l ../../library.csv -n count_20200409_totalNorm --sample-label baseline_1,fxn_1,baseline_2,fxn_2 --fastq ../../fastq/5_Undetermined_S0_L001_R1_001_TCGCAT.fastq.gz ../../fastq/6_Undetermined_S0_L001_R1_001_CATAGC.fastq.gz ../../fastq/8_Undetermined_S0_L001_R1_001_GTAGGC.fastq.gz ../../fastq/9_Undetermined_S0_L001_R1_001_TTCAAG.fastq.gz --pdf-report 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Welcome to MAGeCK v0.5.9.3. Command: count 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Header line of the library file detected; skip the first line ... 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Loading 77736 predefined sgRNAs. 
+WARNING @ Thu, 25 Jun 2020 13:48:58: There are 0 sgRNAs with duplicated sequences. 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Parsing FASTQ file ../../fastq/5_Undetermined_S0_L001_R1_001_TCGCAT.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Determining the trim-5 length of FASTQ file ../../fastq/5_Undetermined_S0_L001_R1_001_TCGCAT.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Processing 0M reads ... 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Read length:26 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Total tested reads: 100001, mapped: 88851(0.8885011149888501) 
+INFO  @ Thu, 25 Jun 2020 13:48:58: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 25 Jun 2020 13:48:58: 0	88718	0.9985031119514693 
+INFO  @ Thu, 25 Jun 2020 13:48:58: 1	133	0.0014968880485306862 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Auto determination of trim5 results: 0 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 13:48:58: Processing 0M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:01: Processing 1M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:04: Processing 2M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:07: Processing 3M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:10: Processing 4M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:12: Processing 5M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:15: Processing 6M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:18: Processing 7M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:21: Processing 8M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:24: Processing 9M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:27: Processing 10M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:29: Processing 11M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:32: Processing 12M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:35: Processing 13M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:38: Processing 14M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:41: Processing 15M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:44: Processing 16M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:47: Processing 17M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:49: Processing 18M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:52: Processing 19M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:55: Processing 20M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:49:58: Processing 21M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:01: Processing 22M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:04: Processing 23M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:07: Processing 24M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:10: Processing 25M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:12: Processing 26M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:15: Processing 27M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:18: Processing 28M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:21: Processing 29M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:24: Processing 30M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:27: Processing 31M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:30: Processing 32M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:33: Processing 33M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:35: Processing 34M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:38: Processing 35M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:41: Processing 36M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:44: Processing 37M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:47: Processing 38M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:50: Processing 39M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:53: Processing 40M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:56: Processing 41M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:50:58: Processing 42M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:01: Processing 43M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:04: Processing 44M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:07: Processing 45M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:10: Processing 46M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:13: Processing 47M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:16: Processing 48M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:19: Processing 49M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:22: Processing 50M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:24: Processing 51M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:27: Processing 52M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:30: Processing 53M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:33: Processing 54M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:36: Processing 55M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:39: Processing 56M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:42: Processing 57M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:45: Processing 58M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:48: Processing 59M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:51: Processing 60M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:53: Processing 61M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:56: Processing 62M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:51:59: Processing 63M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:02: Processing 64M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:05: Processing 65M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:08: Processing 66M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:11: Processing 67M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:14: Processing 68M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:17: Processing 69M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:20: Processing 70M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:22: Processing 71M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:25: Processing 72M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:28: Processing 73M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:31: Processing 74M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:34: Processing 75M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:37: Processing 76M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:40: Processing 77M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:43: Processing 78M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:46: Processing 79M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:49: Processing 80M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:52: Processing 81M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:55: Processing 82M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:52:58: Processing 83M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:01: Processing 84M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:04: Processing 85M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:06: Processing 86M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:09: Processing 87M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:12: Processing 88M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:15: Processing 89M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:18: Processing 90M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:21: Processing 91M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:24: Processing 92M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:27: Processing 93M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:30: Processing 94M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:33: Processing 95M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:36: Processing 96M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:39: Processing 97M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:42: Processing 98M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:45: Processing 99M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Total: 99687416. 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Mapped: 88216257. 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Parsing FASTQ file ../../fastq/6_Undetermined_S0_L001_R1_001_CATAGC.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Determining the trim-5 length of FASTQ file ../../fastq/6_Undetermined_S0_L001_R1_001_CATAGC.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Processing 0M reads ... 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Read length:26 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Total tested reads: 100001, mapped: 88025(0.8802411975880241) 
+INFO  @ Thu, 25 Jun 2020 13:53:47: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 25 Jun 2020 13:53:47: 0	87891	0.9984777051973871 
+INFO  @ Thu, 25 Jun 2020 13:53:47: 1	134	0.001522294802612894 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Auto determination of trim5 results: 0 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 13:53:47: Processing 0M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:50: Processing 1M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:53: Processing 2M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:56: Processing 3M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:53:59: Processing 4M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:01: Processing 5M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:04: Processing 6M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:07: Processing 7M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:10: Processing 8M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:13: Processing 9M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:16: Processing 10M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:19: Processing 11M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:22: Processing 12M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:25: Processing 13M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:27: Processing 14M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:30: Processing 15M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:33: Processing 16M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:36: Processing 17M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:39: Processing 18M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:42: Processing 19M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:45: Processing 20M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:48: Processing 21M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:51: Processing 22M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:53: Processing 23M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:56: Processing 24M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:54:59: Processing 25M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:02: Processing 26M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:05: Processing 27M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:08: Processing 28M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:11: Processing 29M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:14: Processing 30M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:17: Processing 31M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:20: Processing 32M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:23: Processing 33M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:25: Processing 34M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:28: Processing 35M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:31: Processing 36M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:34: Processing 37M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:37: Processing 38M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:40: Processing 39M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:43: Processing 40M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:46: Processing 41M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:49: Processing 42M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:52: Processing 43M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:55: Processing 44M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:55:58: Processing 45M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:00: Processing 46M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:03: Processing 47M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:06: Processing 48M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:09: Processing 49M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:12: Processing 50M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:15: Processing 51M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:18: Processing 52M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:21: Processing 53M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:24: Processing 54M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:27: Processing 55M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:30: Processing 56M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:33: Processing 57M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:36: Processing 58M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:39: Processing 59M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:42: Processing 60M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:44: Processing 61M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:47: Processing 62M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:50: Processing 63M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:53: Processing 64M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:56:56: Processing 65M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:00: Processing 66M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:04: Processing 67M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:07: Processing 68M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:10: Processing 69M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:13: Processing 70M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:16: Processing 71M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:19: Processing 72M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:21: Processing 73M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:24: Processing 74M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:27: Processing 75M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:30: Processing 76M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:33: Processing 77M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:36: Processing 78M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:39: Processing 79M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:42: Processing 80M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:45: Processing 81M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:48: Processing 82M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:51: Processing 83M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:52: Total: 83380298. 
+INFO  @ Thu, 25 Jun 2020 13:57:52: Mapped: 73132444. 
+INFO  @ Thu, 25 Jun 2020 13:57:52: Parsing FASTQ file ../../fastq/8_Undetermined_S0_L001_R1_001_GTAGGC.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 13:57:52: Determining the trim-5 length of FASTQ file ../../fastq/8_Undetermined_S0_L001_R1_001_GTAGGC.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 13:57:52: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 13:57:52: Processing 0M reads ... 
+INFO  @ Thu, 25 Jun 2020 13:57:53: Read length:26 
+INFO  @ Thu, 25 Jun 2020 13:57:53: Total tested reads: 100001, mapped: 88784(0.8878311216887831) 
+INFO  @ Thu, 25 Jun 2020 13:57:53: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 25 Jun 2020 13:57:53: 0	88697	0.9990200937105784 
+INFO  @ Thu, 25 Jun 2020 13:57:53: 1	86	0.0009686429987385114 
+INFO  @ Thu, 25 Jun 2020 13:57:53: 2	1	1.1263290683005947e-05 
+INFO  @ Thu, 25 Jun 2020 13:57:53: Auto determination of trim5 results: 0 
+INFO  @ Thu, 25 Jun 2020 13:57:53: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 13:57:53: Processing 0M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:55: Processing 1M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:57:58: Processing 2M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:01: Processing 3M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:04: Processing 4M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:07: Processing 5M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:10: Processing 6M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:12: Processing 7M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:15: Processing 8M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:18: Processing 9M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:21: Processing 10M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:24: Processing 11M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:27: Processing 12M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:30: Processing 13M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:32: Processing 14M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:35: Processing 15M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:38: Processing 16M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:41: Processing 17M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:44: Processing 18M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:47: Processing 19M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:49: Processing 20M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:52: Processing 21M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:55: Processing 22M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:58:58: Processing 23M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:01: Processing 24M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:04: Processing 25M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:07: Processing 26M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:10: Processing 27M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:12: Processing 28M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:15: Processing 29M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:18: Processing 30M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:21: Processing 31M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:24: Processing 32M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:27: Processing 33M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:30: Processing 34M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:33: Processing 35M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:35: Processing 36M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:38: Processing 37M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:41: Processing 38M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:44: Processing 39M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:47: Processing 40M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:50: Processing 41M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:53: Processing 42M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:56: Processing 43M reads .. 
+INFO  @ Thu, 25 Jun 2020 13:59:58: Processing 44M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:01: Processing 45M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:04: Processing 46M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:07: Processing 47M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:10: Processing 48M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:13: Processing 49M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:16: Processing 50M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:19: Processing 51M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:22: Processing 52M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:24: Processing 53M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:27: Processing 54M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:30: Processing 55M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:33: Processing 56M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:36: Processing 57M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:39: Processing 58M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:42: Processing 59M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:45: Processing 60M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:48: Processing 61M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:50: Processing 62M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:53: Processing 63M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:56: Processing 64M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:00:59: Processing 65M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:02: Processing 66M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:05: Processing 67M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:08: Processing 68M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:11: Processing 69M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:14: Processing 70M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:16: Processing 71M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:19: Processing 72M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:22: Processing 73M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:25: Processing 74M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:28: Processing 75M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:31: Processing 76M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:34: Processing 77M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:37: Processing 78M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:40: Processing 79M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:42: Processing 80M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:45: Processing 81M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:48: Processing 82M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:51: Processing 83M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:54: Processing 84M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:01:57: Processing 85M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:00: Processing 86M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:03: Processing 87M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:06: Processing 88M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:09: Processing 89M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:11: Processing 90M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:14: Processing 91M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:17: Processing 92M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:20: Processing 93M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:23: Processing 94M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:26: Processing 95M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:29: Processing 96M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:32: Processing 97M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:35: Processing 98M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:38: Processing 99M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:40: Processing 100M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:43: Processing 101M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:46: Processing 102M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:49: Processing 103M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:52: Processing 104M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:55: Processing 105M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:02:58: Processing 106M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:01: Processing 107M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:04: Processing 108M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:07: Processing 109M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:09: Processing 110M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:12: Processing 111M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:15: Processing 112M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:18: Processing 113M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:21: Processing 114M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:24: Processing 115M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:27: Processing 116M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:30: Processing 117M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:33: Processing 118M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:36: Processing 119M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:39: Processing 120M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:41: Processing 121M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:44: Processing 122M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:47: Processing 123M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:50: Processing 124M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:53: Processing 125M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:56: Processing 126M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:03:59: Processing 127M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:02: Processing 128M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:05: Processing 129M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:08: Processing 130M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:11: Processing 131M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:13: Processing 132M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:16: Processing 133M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:19: Processing 134M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:22: Processing 135M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:25: Processing 136M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:28: Processing 137M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:31: Processing 138M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:34: Processing 139M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:37: Processing 140M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:40: Processing 141M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:43: Processing 142M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:45: Processing 143M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:48: Processing 144M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:51: Processing 145M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:54: Processing 146M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:04:57: Processing 147M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:00: Processing 148M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:03: Processing 149M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:06: Processing 150M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:09: Processing 151M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:12: Processing 152M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:14: Processing 153M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:17: Processing 154M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:20: Processing 155M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:23: Processing 156M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:26: Processing 157M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:29: Processing 158M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:32: Processing 159M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:35: Processing 160M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:38: Processing 161M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:39: Total: 161628531. 
+INFO  @ Thu, 25 Jun 2020 14:05:39: Mapped: 142728229. 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Parsing FASTQ file ../../fastq/9_Undetermined_S0_L001_R1_001_TTCAAG.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Determining the trim-5 length of FASTQ file ../../fastq/9_Undetermined_S0_L001_R1_001_TTCAAG.fastq.gz... 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Processing 0M reads ... 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Read length:26 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Total tested reads: 100001, mapped: 88284(0.8828311716882831) 
+INFO  @ Thu, 25 Jun 2020 14:05:40: --trim-5 test data: (trim_length reads fraction) 
+INFO  @ Thu, 25 Jun 2020 14:05:40: 0	88193	0.9989692356485886 
+INFO  @ Thu, 25 Jun 2020 14:05:40: 1	90	0.0010194372706266142 
+INFO  @ Thu, 25 Jun 2020 14:05:40: 3	1	1.1327080784740156e-05 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Auto determination of trim5 results: 0 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Possible gRNA lengths:20 
+INFO  @ Thu, 25 Jun 2020 14:05:40: Processing 0M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:43: Processing 1M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:46: Processing 2M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:49: Processing 3M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:51: Processing 4M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:54: Processing 5M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:05:57: Processing 6M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:00: Processing 7M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:03: Processing 8M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:06: Processing 9M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:09: Processing 10M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:11: Processing 11M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:14: Processing 12M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:17: Processing 13M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:20: Processing 14M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:23: Processing 15M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:26: Processing 16M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:29: Processing 17M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:32: Processing 18M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:34: Processing 19M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:37: Processing 20M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:40: Processing 21M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:43: Processing 22M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:46: Processing 23M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:49: Processing 24M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:52: Processing 25M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:55: Processing 26M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:06:58: Processing 27M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:00: Processing 28M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:03: Processing 29M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:06: Processing 30M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:09: Processing 31M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:12: Processing 32M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:15: Processing 33M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:18: Processing 34M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:21: Processing 35M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:24: Processing 36M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:27: Processing 37M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:30: Processing 38M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:32: Processing 39M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:35: Processing 40M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:38: Processing 41M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:41: Processing 42M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:44: Processing 43M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:47: Processing 44M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:50: Processing 45M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:53: Processing 46M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:56: Processing 47M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:07:59: Processing 48M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:02: Processing 49M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:04: Processing 50M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:07: Processing 51M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:10: Processing 52M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:13: Processing 53M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:16: Processing 54M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:19: Processing 55M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:22: Processing 56M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:25: Processing 57M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:28: Processing 58M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:31: Processing 59M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:34: Processing 60M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:37: Processing 61M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:39: Processing 62M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:42: Processing 63M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:45: Processing 64M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:48: Processing 65M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:51: Processing 66M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:54: Processing 67M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:08:57: Processing 68M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:00: Processing 69M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:03: Processing 70M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:06: Processing 71M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:09: Processing 72M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:12: Processing 73M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:14: Processing 74M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:17: Processing 75M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:20: Processing 76M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:23: Processing 77M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:26: Processing 78M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:29: Processing 79M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:32: Processing 80M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:35: Processing 81M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:38: Processing 82M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:41: Processing 83M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:44: Processing 84M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:47: Processing 85M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:50: Processing 86M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:52: Processing 87M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:55: Processing 88M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:09:58: Processing 89M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:01: Processing 90M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:04: Processing 91M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:07: Processing 92M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:10: Processing 93M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:13: Processing 94M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:16: Processing 95M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:19: Processing 96M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:22: Processing 97M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:25: Processing 98M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:28: Processing 99M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:30: Processing 100M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:33: Processing 101M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:36: Processing 102M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:39: Processing 103M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:42: Processing 104M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:45: Processing 105M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:48: Processing 106M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:51: Processing 107M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:54: Processing 108M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:10:57: Processing 109M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:00: Processing 110M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:03: Processing 111M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:06: Processing 112M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:08: Processing 113M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:11: Processing 114M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:14: Processing 115M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:17: Processing 116M reads .. 
+INFO  @ Thu, 25 Jun 2020 14:11:19: Total: 116718266. 
+INFO  @ Thu, 25 Jun 2020 14:11:19: Mapped: 102431968. 
+DEBUG @ Thu, 25 Jun 2020 14:11:20: Initial (total) size factor: 1.1520237647353366 1.3896325480384601 0.7120331080405965 0.9921436294185034 
+DEBUG @ Thu, 25 Jun 2020 14:11:20: Median factor: 1.0567353190952629 1.2250628806734516 0.7770851452274811 0.9671081529360771 
+INFO  @ Thu, 25 Jun 2020 14:11:20: Final size factor: 1.0567353190952629 1.2250628806734516 0.7770851452274811 0.9671081529360771 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Summary of file ../../fastq/5_Undetermined_S0_L001_R1_001_TCGCAT.fastq.gz: 
+INFO  @ Thu, 25 Jun 2020 14:11:21: label	baseline_1 
+INFO  @ Thu, 25 Jun 2020 14:11:21: reads	99687416 
+INFO  @ Thu, 25 Jun 2020 14:11:21: mappedreads	88216257 
+INFO  @ Thu, 25 Jun 2020 14:11:21: totalsgrnas	77736 
+INFO  @ Thu, 25 Jun 2020 14:11:21: zerosgrnas	43 
+INFO  @ Thu, 25 Jun 2020 14:11:21: giniindex	0.07387829731845663 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Summary of file ../../fastq/6_Undetermined_S0_L001_R1_001_CATAGC.fastq.gz: 
+INFO  @ Thu, 25 Jun 2020 14:11:21: label	fxn_1 
+INFO  @ Thu, 25 Jun 2020 14:11:21: reads	83380298 
+INFO  @ Thu, 25 Jun 2020 14:11:21: mappedreads	73132444 
+INFO  @ Thu, 25 Jun 2020 14:11:21: totalsgrnas	77736 
+INFO  @ Thu, 25 Jun 2020 14:11:21: zerosgrnas	198 
+INFO  @ Thu, 25 Jun 2020 14:11:21: giniindex	0.07354276392605896 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Summary of file ../../fastq/8_Undetermined_S0_L001_R1_001_GTAGGC.fastq.gz: 
+INFO  @ Thu, 25 Jun 2020 14:11:21: label	baseline_2 
+INFO  @ Thu, 25 Jun 2020 14:11:21: reads	161628531 
+INFO  @ Thu, 25 Jun 2020 14:11:21: mappedreads	142728229 
+INFO  @ Thu, 25 Jun 2020 14:11:21: totalsgrnas	77736 
+INFO  @ Thu, 25 Jun 2020 14:11:21: zerosgrnas	75 
+INFO  @ Thu, 25 Jun 2020 14:11:21: giniindex	0.08860991116349692 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Summary of file ../../fastq/9_Undetermined_S0_L001_R1_001_TTCAAG.fastq.gz: 
+INFO  @ Thu, 25 Jun 2020 14:11:21: label	fxn_2 
+INFO  @ Thu, 25 Jun 2020 14:11:21: reads	116718266 
+INFO  @ Thu, 25 Jun 2020 14:11:21: mappedreads	102431968 
+INFO  @ Thu, 25 Jun 2020 14:11:21: totalsgrnas	77736 
+INFO  @ Thu, 25 Jun 2020 14:11:21: zerosgrnas	235 
+INFO  @ Thu, 25 Jun 2020 14:11:21: giniindex	0.0825793860735905 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Loading Rnw template file: /home/peter/miniconda3/envs/mageck/lib/python3.7/site-packages/mageck/count_report.Rmd. 
+DEBUG @ Thu, 25 Jun 2020 14:11:21: Setting up the visualization module... 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Loading Rnw template file: /home/peter/miniconda3/envs/mageck/lib/python3.7/site-packages/mageck/fastq_template.Rnw. 
+DEBUG @ Thu, 25 Jun 2020 14:11:21: Setting up the visualization module... 
+INFO  @ Thu, 25 Jun 2020 14:11:21: Running command: cd ./; Rscript count_20200409_totalNorm_countsummary.R 

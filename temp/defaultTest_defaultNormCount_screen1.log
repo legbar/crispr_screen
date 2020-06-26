@@ -1,0 +1,117 @@
+INFO  @ Thu, 25 Jun 2020 11:44:19: Parameters: /home/peter/miniconda3/envs/mageck/bin/mageck test --count-table ../test_data/defaultTest_defaultNormCount_screen1/count_20200409_.count_normalized_screen1.txt --treatment-id fxn_1 --sort-criteria pos --output-prefix defaultTest_defaultNormCount_screen1 --pdf-report 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Welcome to MAGeCK v0.5.9.3. Command: test 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Loading count table from ../test_data/defaultTest_defaultNormCount_screen1/count_20200409_.count_normalized_screen1.txt  
+INFO  @ Thu, 25 Jun 2020 11:44:19: Processing 1 lines.. 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Parsing error in line 1 (usually the header line). Skip this line. 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Loaded 77736 records. 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Loading Rnw template file: /home/peter/miniconda3/envs/mageck/lib/python3.7/site-packages/mageck/test_report.Rmd. 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Setting up the visualization module... 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Loading R template file: /home/peter/miniconda3/envs/mageck/lib/python3.7/site-packages/mageck/plot_template.RTemplate. 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Loading R template file: /home/peter/miniconda3/envs/mageck/lib/python3.7/site-packages/mageck/plot_template_indvgene.RTemplate. 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Loading Rnw template file: /home/peter/miniconda3/envs/mageck/lib/python3.7/site-packages/mageck/plot_template.Rnw. 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Setting up the visualization module... 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Given sample labels: fxn_1 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Converted index: 1 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Treatment samples:fxn_1 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Treatment sample index:1 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Given sample labels: 0 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Converted index: 0 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Control samples: the rest of the samples 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Control sample index:0 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Initial (total) size factor: 0.9805334482384888 1.020255147516651 
+DEBUG @ Thu, 25 Jun 2020 11:44:19: Median factor: 0.9963677786238118 1.0063272708937785 
+INFO  @ Thu, 25 Jun 2020 11:44:19: Final size factor: 0.9963677786238118 1.0063272708937785 
+INFO  @ Thu, 25 Jun 2020 11:44:20: Detecting outliers from variance estimation.. Avg read count:[907.18696873064], Var: [1210168.7765673432] 
+INFO  @ Thu, 25 Jun 2020 11:44:20: Skipping 586 sgRNAs from variance calculation because of their extreme high counts (> 4* STD (mean counts) ). 
+DEBUG @ Thu, 25 Jun 2020 11:44:20: Adjusted model: 1.5558742507236485	0 
+INFO  @ Thu, 25 Jun 2020 11:44:20: Before RRA, 38 sgRNAs are removed with zero counts in both group(s). 
+INFO  @ Thu, 25 Jun 2020 11:44:21: Use qnorm to reversely calculate sgRNA scores ... 
+DEBUG @ Thu, 25 Jun 2020 11:44:22: lower test FDR cutoff: 0.3295194213493269 
+DEBUG @ Thu, 25 Jun 2020 11:44:22: higher test FDR cutoff: 0.3465854976962084 
+INFO  @ Thu, 25 Jun 2020 11:44:23: Running command: RRA -i defaultTest_defaultNormCount_screen1.plow.txt -o defaultTest_defaultNormCount_screen1.gene.low.txt -p 0.3295194213493269 --skip-gene NA --skip-gene na  
+INFO  @ Thu, 25 Jun 2020 11:44:44: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Welcome to RRA v 0.5.9. 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Skipping gene NA for permutation ... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Skipping gene na for permutation ... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Reading input file... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Summary: 77698 sgRNAs, 19280 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Computing lo-values for each group... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Computing false discovery rate... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Permuting genes with 1 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Permuting genes with 2 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Permuting genes with 3 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Permuting genes with 4 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Permuting genes with 8 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Permuting genes with 80 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Number of genes under FDR adjustment: 19280 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   Saving to output file... 
+INFO  @ Thu, 25 Jun 2020 11:44:44:   RRA completed. 
+INFO  @ Thu, 25 Jun 2020 11:44:44:    
+INFO  @ Thu, 25 Jun 2020 11:44:44: End command message. 
+INFO  @ Thu, 25 Jun 2020 11:44:44: Running command: RRA -i defaultTest_defaultNormCount_screen1.phigh.txt -o defaultTest_defaultNormCount_screen1.gene.high.txt -p 0.3465854976962084 --skip-gene NA --skip-gene na  
+INFO  @ Thu, 25 Jun 2020 11:45:07: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Welcome to RRA v 0.5.9. 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Skipping gene NA for permutation ... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Skipping gene na for permutation ... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Reading input file... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Summary: 77698 sgRNAs, 19280 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Computing lo-values for each group... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Computing false discovery rate... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Permuting genes with 1 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Permuting genes with 2 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Permuting genes with 3 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Permuting genes with 4 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Permuting genes with 8 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Permuting genes with 80 sgRNAs... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Number of genes under FDR adjustment: 19280 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   Saving to output file... 
+INFO  @ Thu, 25 Jun 2020 11:45:07:   RRA completed. 
+INFO  @ Thu, 25 Jun 2020 11:45:07:    
+INFO  @ Thu, 25 Jun 2020 11:45:07: End command message. 
+DEBUG @ Thu, 25 Jun 2020 11:45:07: Sorting the merged items by positive selection... 
+INFO  @ Thu, 25 Jun 2020 11:45:07: Loading top 10 genes from defaultTest_defaultNormCount_screen1.gene.low.txt: PGM2L1,UBQLN1,GRIN2C,LRP2,CLNS1A,TUBA3C,PIM2,CSAG1,AKAP8L,PHLDA2 
+DEBUG @ Thu, 25 Jun 2020 11:45:07: Column index:3 
+INFO  @ Thu, 25 Jun 2020 11:45:07: Loading top 10 genes from defaultTest_defaultNormCount_screen1.gene.high.txt: TRA2B,CSNK2A1,DDX6,RPL27A,SUPV3L1,C9orf62,ERGIC2,NPIPB6,ATPAF2,CSNK1A1 
+DEBUG @ Thu, 25 Jun 2020 11:45:07: Column index:9 
+INFO  @ Thu, 25 Jun 2020 11:45:08: Running command: rm defaultTest_defaultNormCount_screen1.plow.txt 
+INFO  @ Thu, 25 Jun 2020 11:45:08: Running command: rm defaultTest_defaultNormCount_screen1.phigh.txt 
+INFO  @ Thu, 25 Jun 2020 11:45:08: Running command: rm defaultTest_defaultNormCount_screen1.gene.low.txt 
+INFO  @ Thu, 25 Jun 2020 11:45:08: Running command: rm defaultTest_defaultNormCount_screen1.gene.high.txt 
+INFO  @ Thu, 25 Jun 2020 11:45:08: Running command: cd ./; Rscript defaultTest_defaultNormCount_screen1.R 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:45:10:   null device  
+INFO  @ Thu, 25 Jun 2020 11:45:10:             1  
+INFO  @ Thu, 25 Jun 2020 11:45:10:   Writing to file defaultTest_defaultNormCount_screen1_summary.tex 
+INFO  @ Thu, 25 Jun 2020 11:45:10:   Processing code chunks with options ... 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    1 : keep.source term verbatim (label = funcdef, defaultTest_defaultNormCount_screen1_summary.Rnw:27) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    2 : keep.source term tex (label = tab1, defaultTest_defaultNormCount_screen1_summary.Rnw:37) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    3 : keep.source term verbatim (defaultTest_defaultNormCount_screen1_summary.Rnw:77) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    4 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:83) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    5 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:201) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    6 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:345) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    7 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:489) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    8 : keep.source term verbatim (defaultTest_defaultNormCount_screen1_summary.Rnw:567) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    9 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:573) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:   10 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:691) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:   11 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:835) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:   12 : keep.source term verbatim pdf  (defaultTest_defaultNormCount_screen1_summary.Rnw:979) 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    
+INFO  @ Thu, 25 Jun 2020 11:45:10:   You can now run (pdf)latex on ‘defaultTest_defaultNormCount_screen1_summary.tex’ 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    
+INFO  @ Thu, 25 Jun 2020 11:45:10: End command message. 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Running command: cd ./; rm -rf defaultTest_defaultNormCount_screen1_summary-*.pdf 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    
+INFO  @ Thu, 25 Jun 2020 11:45:10: End command message. 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Running command: cd ./; rm -rf defaultTest_defaultNormCount_screen1_summary.aux 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    
+INFO  @ Thu, 25 Jun 2020 11:45:10: End command message. 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Running command: cd ./; rm -rf defaultTest_defaultNormCount_screen1_summary.tex 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    
+INFO  @ Thu, 25 Jun 2020 11:45:10: End command message. 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Running command: cd ./; rm -rf defaultTest_defaultNormCount_screen1_summary.toc 
+INFO  @ Thu, 25 Jun 2020 11:45:10: Command message: 
+INFO  @ Thu, 25 Jun 2020 11:45:10:    
+INFO  @ Thu, 25 Jun 2020 11:45:10: End command message. 

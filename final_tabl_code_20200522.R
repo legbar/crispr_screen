@@ -50,10 +50,12 @@ combined_table <- scI_II_comb_ord_sel %>%
   ungroup() %>%
   arrange(desc(avg)) %>%
   mutate("Fold Enrichment" = 2^avg) %>%
+  mutate(fisher_fdr = p.adjust(FisherP, method = "fdr", n = length(FisherP))) %>%
   select(Gene,
          "Screen 1 P value" = P1,
          "Screen 2 P value" = P2,
          "Fisher P value" = FisherP,
+         "Fisher P adjusted value" = fisher_fdr,
          "Screen 1 log2 Fold Enrichment" = SCI_FC,
          "Screen 2 log2 Fold Enrichment" = SCII_FC,
          "Combined log2 Fold Enrichment" = avg,
@@ -61,20 +63,22 @@ combined_table <- scI_II_comb_ord_sel %>%
          "Screen 1 'Good' sgRNAs" = SCI_GSGRNA,
          "Screen 2 'Good' sgRNAs" = SCII_GSGRNA) 
 
-write_csv(combined_table, path = "combined_screens_entire_list_20200531.csv")
+write_csv(combined_table, path = "combined_screens_entire_list_20200625.csv")
 
-combined_table <- scI_II_comb_ord_sel %>%
+  combined_table <- scI_II_comb_ord_sel %>%
   as_tibble() %>%
   group_by(Gene) %>%
   mutate(avg=mean(c(SCI_FC, SCII_FC), na.rm=T)) %>%
   ungroup() %>%
-  filter(FisherP < 0.01) %>%
   arrange(desc(avg)) %>%
   mutate("Fold Enrichment" = 2^avg) %>%
+  mutate(fisher_fdr = p.adjust(FisherP, method = "fdr", n = length(FisherP))) %>%
+  filter(FisherP < 0.01) %>%
   select(Gene,
          "Screen 1 P value" = P1,
          "Screen 2 P value" = P2,
          "Fisher P value" = FisherP,
+         "Fisher P adjusted value" = fisher_fdr,
          "Screen 1 log2 Fold Enrichment" = SCI_FC,
          "Screen 2 log2 Fold Enrichment" = SCII_FC,
          "Combined log2 Fold Enrichment" = avg,
@@ -82,7 +86,7 @@ combined_table <- scI_II_comb_ord_sel %>%
          "Screen 1 'Good' sgRNAs" = SCI_GSGRNA,
          "Screen 2 'Good' sgRNAs" = SCII_GSGRNA) 
 
-write_csv(combined_table, path = "combined_screens_signif_list_20200531.csv")
+write_csv(combined_table, path = "combined_screens_signif_list_20200625.csv")
 
 library(gt)
 
@@ -121,7 +125,7 @@ library(formattable)
 top_10_formattable <- combined_table %>%
   select(Gene, 
          as.name("Fold Enrichment"), 
-         as.name("Fisher P value")) %>%
+         as.name("Fisher P adjusted value")) %>%
   # top_n(10) %>%
   head(10) %>%
   # mutate(Rank = row_number()) %>%
